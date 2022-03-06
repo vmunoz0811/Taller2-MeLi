@@ -1,0 +1,187 @@
+body {
+    font-size: 20px;
+    margin: 0;
+    background-color: gray;
+  }
+  
+  header {
+    background-color: #fff159;
+    
+  }
+
+  .meliLogo{
+    background-image: url("assets/meli-logo.png");
+    background-repeat: no-repeat;
+    height: 28px;
+    overflow: hidden;
+    text-indent: -999px;
+    width: 39px;
+    top: 11px;
+    position: absolute;
+    left: 10px;
+  }
+  
+  .search {
+    border: 0 rgba(0,0,0,.2);
+    color: #333;
+    font-size: 16px;
+    -webkit-border-radius: 2px;
+    border-radius: 0px;
+    width: 36%;
+    height: 100%;
+    margin: 3;
+    position: relative;
+    right: -370px;
+    top: 10px;
+    padding: 6px 6px 6px 35px;
+    font-family: inherit;
+  }
+  button.search{
+    padding-bottom: 2px;
+    left: -6px;
+    right: initial;
+    z-index: 920;
+    position: absolute;
+    top: 0;
+    height: 50px;
+    padding: 0;
+    width: 48px;
+    background: 0 0;
+    border: none;
+    font-size: 22px;
+    color: #666;
+    line-height: 1em;
+  }
+  
+  h1 {
+    color: steelblue;
+    font-size: 50px;
+  }
+  
+  #first-heading {
+    color: orange;
+  }
+  
+  p {
+    font-weight: 800;
+  }
+  
+  .selected-item {
+    background-color: red;
+  }
+  
+  .selected-item:hover {
+    background-color: yellow;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff159;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .carousel img {
+    position: relative;
+  }
+
+  body{
+    background-color: lightgrey;
+}
+
+#kiko-slider{
+ font-family: sans-serif;
+ margin: auto;
+ background-color: white;
+ max-width: 800px;
+ width: 100%;
+ padding: 30px;
+ box-sizing: border-box;
+}
+
+#kiko-slider > ul, li {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+#kiko-slider > ul.slider{
+ position: relative;
+ max-width: 800px;
+ width: 100%;
+ height: 300px;
+}
+
+#kiko-slider > ul.slider h1{
+ position: absolute;
+ background-color: rgba(255, 255, 255, 0.6);
+ padding: 10px;
+ left: 50%;
+ top: 100px;
+ transform: translate(-50%, -50%);
+}
+
+#kiko-slider > ul.slider li {
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   opacity: 0;
+   width: inherit;
+   height: inherit;
+   transition: opacity .5s;
+   background:#fff;
+}
+
+#kiko-slider > ul.slider li img{
+ width: 100%;
+ height: 300px;
+ object-fit: cover;
+}
+
+#kiko-slider > ul.slider li:first-child {
+   opacity: 1; /*Mostramos el primer <li>*/
+}
+
+#kiko-slider > ul.slider li:target {
+   opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+#kiko-slider > .menu{
+ text-align: center;
+ margin: 20px;
+}
+
+#kiko-slider > .menu li{
+ display: inline-block;
+ text-align: center;
+}
+
+#kiko-slider > .menu li a{
+ display: inline-block;
+ color: white;
+ text-decoration: none;
+ background-color: grey;
+ padding: 3px;
+ width: 7px;
+ height: 7px;
+ font-size: 7px;
+ border-radius: 100%;
+}
