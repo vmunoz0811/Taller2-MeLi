@@ -15,7 +15,7 @@
 
     <ul>
 
-      <A><li><a href="Inicio.html">Inicio</a></li></A>
+      <li><a href="Inicio.html">Inicio</a></li>
       
     </ul>
     
@@ -27,12 +27,18 @@
         
         
 
+      <tr><th>Vendedor --></th>
+        <td>Vincent Van Gogh</td>
+        <td>Paul Cezanne</td>
+        <td>Edouard Manet</td>
+    </tr>
+
         <tr>
 
             <th>Disponibles: </th>
 
             <td><img src="assets/Vincent_van_gogh.jpg"
-                title="PrimeraPrimeraPrimeraPrimeraPrimera"
+                title="Artista: Vincent Van Gogh"
                 alt="PrimeraPrimeraPrimeraPrimeraPrimera"
                 width="400"
                 height="341"
@@ -42,23 +48,76 @@
                 alt="Segunda"
                 width="400"
                 height="341"
-                title="SegundaSegundaSegundaSegundaSegundaSegundaSegunda">
+                title="Artista: Paul Cezanne">
             </td>
             <td><img src="assets/edouard_manet.jpg"
                 alt="Tercera"
                 width="400"
                 height="341"
-                title="TerceraTerceraTerceraTerceraTerceraTercera">
+                title="Artista: Edouard Manet">
             </td>
 
           </tr>
       
-          <tr><th>Artista --></th>
-            <td>Vincent Van Gogh</td>
-            <td>Paul Cezanne</td>
-            <td>Edouard Manet</td>
+          <th></th>
+          <td>
+            <script language="javascript">
+              var i = 0;
+               
+              function contador()
+              {
+              i = i + 1;
+              var btn = document.getElementById("boton");
+              btn.value = "Like (" + i + ")";
+              }
+              </script>
+               
+              <input type="button" id="boton" value="Like" onclick="javascript: contador()" />
+             
+          </td>
+
+          <td>
+            <script language="javascript">
+              var j = 0;
+               
+              function contador2()
+              {
+              j = j + 1;
+              var btn = document.getElementById("boton2");
+              btn.value = "Like (" + j + ")";
+              }
+              </script>
+               
+              <input type="button" id="boton2" value="Like" onclick="javascript: contador2()" />
+             
+          </td>
+
+          <td>
+            <script language="javascript">
+              var k = 0;
+               
+              function contador3()
+              {
+              k = k + 1;
+              var btn = document.getElementById("boton3");
+              btn.value = "Like (" + k + ")";
+              }
+              </script>
+               
+              <input type="button" id="boton3" value="Like" onclick="javascript: contador3()" />
+             
+          </td>
+
         </tr>
+          
         <tr></tr>
+
+        <tr><th>Vendedor --> </th>
+          <td>Camille Pissarro</td>
+          <td>Jean Beraud</td>
+          <td>Ludwig Munthe</td>
+      </tr>
+
         <tr>
             
             <th>Disponibles: </th>
@@ -67,28 +126,76 @@
                 alt="Cuarta"
                 width="400"
                 height="341"
-                title="PrimeraPrimeraPrimeraPrimeraPrimera">
+                title="Artista: Camille Pissarro">
             </td>
             <td><img src="assets/jean_beraud.jpg"
                 alt="Quinta"
                 width="400"
                 height="341"
-                title="SegundaSegundaSegundaSegundaSegundaSegundaSegunda">
+                title="Artista: Jean Beraud">
             </td>
             <td><img src="assets/ludwig_munthe.jpg"
                 alt="Sexta"
                 width="400"
                 height="341"
-                title="TerceraTerceraTerceraTerceraTerceraTercera">
+                title="Artista: Ludwig Munthe">
             </td>
 
           </tr>
       
-          <tr><th>Artista --> </th>
-            <td>Camille Pissarro</td>
-            <td>Jean Beraud</td>
-            <td>Ludwig Munthe</td>
+          <tr>
+
+            <th></th>
+          <td>
+            <script language="javascript">
+              var l = 0;
+               
+              function contador4()
+              {
+              l = l + 1;
+              var btn = document.getElementById("boton4");
+              btn.value = "Like (" + l + ")";
+              }
+              </script>
+               
+              <input type="button" id="boton4" value="Like" onclick="javascript: contador4()" />
+             
+          </td>
+
+          <td>
+            <script language="javascript">
+              var a = 0;
+               
+              function contador5()
+              {
+              a = a + 1;
+              var btn = document.getElementById("boton5");
+              btn.value = "Like (" + a + ")";
+              }
+              </script>
+               
+              <input type="button" id="boton5" value="Like" onclick="javascript: contador5()" />
+             
+          </td>
+
+          <td>
+            <script language="javascript">
+              var b = 0;
+               
+              function contador6()
+              {
+              b = b + 1;
+              var btn = document.getElementById("boton6");
+              btn.value = "Like (" + b + ")";
+              }
+              </script>
+               
+              <input type="button" id="boton6" value="Like" onclick="javascript: contador6()" />
+             
+          </td>
+
         </tr>
+          
         
       </table>
 
