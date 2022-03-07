@@ -12,12 +12,12 @@ body {
   .meliLogo{
     background-image: url("assets/meli-logo.png");
     background-repeat: no-repeat;
-    height: 28px;
-    overflow: hidden;
+    height: 70px;
+    overflow: auto;
     text-indent: -999px;
-    width: 39px;
+    width: 100px;
     top: 11px;
-    position: absolute;
+    position: static;
     left: 10px;
   }
   
@@ -31,7 +31,7 @@ body {
     height: 100%;
     margin: 3;
     position: relative;
-    right: -370px;
+    right: -270px;
     top: 10px;
     padding: 6px 6px 6px 35px;
     font-family: inherit;
@@ -67,11 +67,12 @@ body {
   }
   
   .selected-item {
-    background-color: red;
+    background-color:#fff159;
+    text-align: center;
   }
   
   .selected-item:hover {
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
   }
   
   
@@ -89,15 +90,38 @@ body {
   
   li a {
     display: block;
-    color: white;
+    color: rgb(172, 158, 158);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   li a:hover {
     background-color: #111;
   }
+
+  .lr {
+     float: right;
+  }
+
+  .lr a {
+    display: block;
+    color: rgb(172, 158, 158);
+    text-align: right;
+    width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+    text-decoration: none;
+  }
+  
+  .lr a:hover {
+    background-color: #111;
+  }
+
+ .center {
+  text-align: center;
+  border: 3px solid green;
+ }
 
   .carousel img {
     position: relative;
