@@ -71,6 +71,7 @@ body {
     text-align: center;
   }
   
+
   .selected-item:hover {
     background-color: rgb(255, 255, 255);
   }
@@ -97,7 +98,7 @@ body {
   }
 
   li a:hover {
-    background-color: #111;
+    background-color: rgb(25, 156, 179);
   }
 
   .lr {
@@ -106,16 +107,16 @@ body {
 
   .lr a {
     display: block;
-    color: rgb(172, 158, 158);
-    text-align: right;
+    color: rgb(0, 0, 0);
+    text-align: center;
     width: 300px;
-  border: 3px solid #73AD21;
+  border: 3px solid #09035e;
   padding: 10px;
     text-decoration: none;
   }
   
   .lr a:hover {
-    background-color: #111;
+    background-color: rgb(151, 137, 4);
   }
 
  .center {
